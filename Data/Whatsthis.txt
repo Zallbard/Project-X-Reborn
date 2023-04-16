@@ -1,0 +1,1 @@
+all the ini files in this big file ensure that all obsolete objects from ZeroHour not used in ROTR are dissabled/removed.

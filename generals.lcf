@@ -1,0 +1,9 @@
+# RUN = the game to launch
+RUN  = . game.dat
+
+#
+# Sku's to check for patches
+#
+# SKB NOTE: For C&C Generals, english is no longer used - it is retrieved from registry.
+#
+SKU1 = english SOFTWARE\Electronic Arts\EA Games\Command and Conquer Generals Zero Hour
