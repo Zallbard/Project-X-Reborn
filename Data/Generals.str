@@ -722,7 +722,7 @@ CONTROLBAR:ConstructAmericaJetRaptor
 "Rap&tor"
 END
 
-CONTROLBAR:ConstructAmericaJetStealthFighter
+CONTROLBAR:ConstructAmericaJetNighthawk
 "&Nighthawk"
 END
 
@@ -3278,7 +3278,19 @@ CONTROLBAR:ToolTipUSABuildSecurityFence
 "Build security fence that prevents vehicles from passing and alerts of any enemy infantry that pass through."
 END
 
+OBJECT:StealthFighter
+"Stealth Fighter"
+END
+
+CONTROLBAR:ConstructAmericaJetStealthFighter
+"Stealth &Fighter"
+END
+
 CONTROLBAR:ToolTipUSABuildStealthFighter
+"Stealthed Ground Attack Aircraft. \n Armed with air to ground Missiles.\n Stealthed when not attacking.\n\n Strong vs. base Defences \n Weak vs. Fighters, Anti-Air Units"
+END
+
+CONTROLBAR:ToolTipUSABuildNighthawk
 "Stealth Bomber. \n Armed with a single guided bomb.\n Permanently stealthed unless detected.\n\n Strong vs. base defences, structures\n Weak vs. fighters, heavy anti-air units"
 END
 
@@ -23827,7 +23839,7 @@ OBJECT:StatueRoman
 "Roman Statue"
 END
 
-OBJECT:StealthFighter
+OBJECT:Nighthawk
 "Nighthawk"
 END
 
