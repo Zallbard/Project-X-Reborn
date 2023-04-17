@@ -1,12 +1,19 @@
+OBJECT:Crusader
+"Crusader"
+END
+CONTROLBAR:ConstructAmericaTankCrusader
+"Crusader &C"
+END
+CONTROLBAR:ToolTipUSABuildCrusader
+"Main Battle Tank \n \n Standard mainstay of US Ground Forces, able to hold well either alone or in groups. Can build a drone companion. \n"
+END
 
 OBJECT:Phanlanx
 "Phalanx"
 END
-
 CONTROLBAR:ConstructAmericaPhanlanx
 "Phalanx Syste&m"
 END
-
 CONTROLBAR:ToolTipUSABuildPhanlanx
 "Air defence. \n \n Power Required: 2"
 END
@@ -762,7 +769,7 @@ CONTROLBAR:ConstructAmericaTankAvenger
 "Aven&ger"
 END
 
-CONTROLBAR:ConstructAmericaTankCrusader
+CONTROLBAR:ConstructAmericaTankCrusaderII
 "&Crusader Tank"
 END
 
@@ -3170,7 +3177,7 @@ CONTROLBAR:ToolTipUSABuildCommandCenter
 "Controls all Generals Powers.\n Creates Construction Dozers and scouts.\n Provides radar."
 END
 
-CONTROLBAR:ToolTipUSABuildCrusader
+CONTROLBAR:ToolTipUSABuildCrusaderII
 "Medium Tank.\n Armed with a cannon and coaxial machine gun.\n Can be upgraded to use a hover drive.\n Can be upgraded with drones.\n\n Strong vs. vehicles, structures \n Weak vs. infantry, aircraft"
 END
 
@@ -22891,8 +22898,8 @@ OBJECT:CruiseMissile
 "Cruise Missile"
 END
 
-OBJECT:Crusader
-"Crusader Tank"
+OBJECT:CrusaderII
+"Crusader II Tank"
 END
 
 OBJECT:DaisyCutterBomb
