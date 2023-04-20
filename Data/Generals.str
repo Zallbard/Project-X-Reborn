@@ -33199,7 +33199,7 @@ CONTROLBAR:UpgradeEuropeAmmoStockPile
 END
 
 CONTROLBAR:TooltipUpgradeEuropeAmmoStockPile
-"Ammunition storage bunker.\n Builds Munition Tracks.\n Can be garrisoned by 3 infantry.\n Provides a damage bonus to nearby defences.\n Explodes violently when destroyed.\n\n Build Limit: 4\n Power Required: 3"
+"Ammunition storage bunker.\n Builds Munition Tracks.\n Can be garrisoned by 3 infantry.\n Provides a damage bonus to nearby defences.\n Explodes violently when destroyed.\n\n Power Required: 3"
 END
 
 CONTROLBAR:SelfDestruct
@@ -33523,7 +33523,7 @@ CONTROLBAR:ConstructEuropeGrandMortar
 End
 
 CONTROLBAR:ToolTipEUBuildGrandMortar
-"Heavy Mortar Defence.\n Bombards enemy units at long range.\n \n Build Limit: 4 \n Power Required: 5 \n\n Strong vs. infantry, vehicles \n Weak vs. aircraft"
+"Heavy Mortar Defence.\n Bombards enemy units at long range.\n \n Power Required: 5 \n\n Strong vs. infantry, vehicles \n Weak vs. aircraft"
 END
 
 SCIENCE:WarPropaganda
