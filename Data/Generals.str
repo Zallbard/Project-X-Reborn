@@ -1,3 +1,14 @@
+OBJECT:Frog
+"Frog"
+END
+CONTROLBAR:ConstructChinaVehicleFrog
+"F&rog"
+END
+
+CONTROLBAR:ToolTipChinaBuildFrog
+"Scout vehicle.\n Specializing in reconnaissance."
+END
+
 OBJECT:Crusader
 "Crusader"
 END
@@ -2341,6 +2352,10 @@ CONTROLBAR:TooltipChinaUpgradeRadar
 "Build a radar for this Command Center."
 END
 
+CONTROLBAR:TooltipChinaUpgradeFrogRadarScan
+"Installs a scanner for reconnaissance, as well as a detector for detecting mines, traps."
+END
+
 CONTROLBAR:ToolTipChinaUpgradeRedGuardCaptureBuilding
 "Allows the Red Guard to capture buildings."
 END
@@ -3679,6 +3694,10 @@ END
 
 CONTROLBAR:UpgradeChinaRadar
 "R&adar"
+END
+
+CONTROLBAR:UpgradeChinaFrogScan
+"Scan R&adar"
 END
 
 CONTROLBAR:UpgradeChinaRedguardCaptureBuilding
