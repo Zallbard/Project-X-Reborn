@@ -972,8 +972,12 @@ CONTROLBAR:ConstructChinaVehicleHackerVan
 "Hack &Van"
 END
 
-CONTROLBAR:ConstructChinaVehicleHelix
-"Heli&x"
+CONTROLBAR:constructchinavehiclehelix
+"Ka-29 Heli&x"
+END
+
+CONTROLBAR:flam_tooltipchinabuildhelix
+"Has 6 sitplaces. Armed with machine gun. Has the ability to drop fuel bombs. \n\n Can be upgraded with the following add-ons: \n-Propaganda Tower \n-Radar \n-ECM Tower \n\n Strong vs. infantry, light vehicles \n Weak vs. missile armed infantry, anti-aircraft defenses"
 END
 
 CONTROLBAR:ConstructChinaVehicleInfernoCannon
