@@ -1,3 +1,46 @@
+CONTROLBAR:VeteranSpecialistsTank
+"&Veteran Heavy Tanks Specialists"
+END
+SCIENCE:VeteranTank
+"Veteran Tanks Company"
+END
+CONTROLBAR:ToolTipChinaScienceVeteranTanks
+"Main Tanks will be trained as veteran. \n Unlocks Veteran Heavy Tanks Specialists Upgrade."
+END
+CONTROLBAR:TooltipChinaVeteranSpecialistsTanks
+"All heavy tanks will be trained as veteran."
+END
+
+SCIENCE:VeteranInfantry
+"Veteran Infantry Company"
+END
+CONTROLBAR:ToolTipUSAScienceVeteranInfantry
+"Deploys veteran infantry units.\n\n Rangers will be trained as veteran.\n Missile Defenders will be trained as veteran.\n Vanguards will be trained as veteran.\n Unlocks Veteran Specialists Upgrade."
+END
+CONTROLBAR:VeteranSpecialistsInfantry
+"&Veteran Specialists"
+END
+CONTROLBAR:TooltipUSAVeteranSpecialistsInfantry
+"Deploy veteran specialist infantry units.\n\n Javelin Teams will be trained as veteran.\n Pathfinders will be trained as veteran.\n Enforcers will be trained as veteran.\n SEALs will be trained as veteran."
+END
+
+CONTROLBAR:DropFuelBomb
+"Craft a bomb with diesel fuel."
+END
+CONTROLBAR:ToolTipDropFuelBomb
+"Creates a puddle of flammable liquid on contact. \n Be careful not to bring open flames."
+END
+
+OBJECT:Conqueror
+"Conqueror"
+END
+CONTROLBAR:ConstructChinaTankConqueror
+"Conq&ueror"
+END
+CONTROLBAR:ToolTipChinaBuildConqueror
+"Heavy Battle Tank.\n Armed with a 152mm cannon.\n Armed with 35mm autocannon .\n\n Strong vs. vehicles \n Weak vs. aircraft"
+END
+
 OBJECT:Frog
 "Frog"
 END
@@ -13,7 +56,7 @@ OBJECT:Crusader
 "Crusader"
 END
 CONTROLBAR:ConstructAmericaTankCrusader
-"Crusader &C"
+"&Crusader"
 END
 CONTROLBAR:ToolTipUSABuildCrusader
 "Main Battle Tank \n \n Standard mainstay of US Ground Forces, able to hold well either alone or in groups. Can build a drone companion. \n"
@@ -3106,6 +3149,20 @@ END
 
 CONTROLBAR:TooltipUpgradeChinaOverlordPropagandaTower
 "Build a Propaganda Tower on this Overlord.\n Heals nearby units and inspires them to fight harder.\n\n Strong vs. n/a\n Weak vs. n/a"
+END
+
+CONTROLBAR:UpgradeChinaAddonECMHelix
+"EC&M Module"
+END
+CONTROLBAR:TooltipUpgradeChinaAddonECMHelix
+"Build a ECM module on this unit.\n ECM emitter turns off vehicles.\n\n Strong vs. vehicle \n Weak vs. n/a"
+END
+
+CONTROLBAR:UpgradeChinaRadarHelix
+"Rad&ar Module"
+END
+CONTROLBAR:TooltipUpgradeChinaRadarHelix
+"Build a Radar module on this unit.\n Detects hidden infantry, explosive traps, mines.\n\n Strong vs. n/a \n Weak vs. n/a"
 END
 
 CONTROLBAR:TooltipUpgradeChinaStunBullets
@@ -32490,22 +32547,6 @@ End
 CONTROLBAR:TooltipGLARecyclerUpgradeAllreadyApplied
 "Only one recycler upgrade may be applied."
 End
-
-SCIENCE:VeteranInfantry
-"Veteran Company"
-END
-
-CONTROLBAR:ToolTipUSAScienceVeteranInfantry
-"Deploys veteran infantry units.\n\n Rangers will be trained as veteran.\n Missile Defenders will be trained as veteran.\n Vanguards will be trained as veteran.\n Unlocks Veteran Specialists Upgrade."
-END
-
-CONTROLBAR:VeteranSpecialists
-"&Veteran Specialists"
-END
-
-CONTROLBAR:TooltipUSAVeteranSpecialists
-"Deploy veteran specialist infantry units.\n\n Javelin Teams will be trained as veteran.\n Pathfinders will be trained as veteran.\n Enforcers will be trained as veteran.\n SEALs will be trained as veteran."
-END
 
 UPGRADE:RangerFlashBangGrenade
 "Flash-Bang Grenades"
