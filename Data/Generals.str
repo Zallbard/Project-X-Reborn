@@ -1,3 +1,28 @@
+OBJECT:G6Howitzer
+"Addax"
+END
+CONTROLBAR:ConstructGLAVehicleG6Howitzer
+"Adda&x"
+END
+CONTROLBAR:ToolTipGLABuildG6Howitzer
+"Advanced Artillery Vehicle.\n Armed with a 155mm long range cannon.\n Can be set to precision or scatter fire modes.\n\n Strong vs. infantry, structures\n Weak vs. aircraft"
+END
+
+
+CONTROLBAR:VeteranSpecialistsAdvanceVehicle
+"&Veteran Advance Vehicles Specialists"
+END
+CONTROLBAR:TooltipVeteranSpecialistsAdvanceVehicle
+"All advance vehicles will be trained as veteran."
+END
+SCIENCE:VeteranVehicle
+"Veteran Vehicles Company"
+END
+CONTROLBAR:ToolTipScienceVeteranVehicle
+"Main vehicle will be trained as veteran. \n Unlocks Veteran Advance Vehicles Specialists Upgrade."
+END
+
+
 CONTROLBAR:VeteranSpecialistsTank
 "&Veteran Heavy Tanks Specialists"
 END

@@ -131,7 +131,6 @@ FX_SpiritCarpetBomb
 ; Артилерия
 FX_WarFortressCannonExplosiveShell
 FX_SentinelCannonShellDetonation
-WeaponFX_MstaArtilleryShellExplosion
 FX_TremorShellDetonation
 FX_BlackBearCannonShellDetonation
 FX_RecyclerTremorArtilleryShellExplosion
