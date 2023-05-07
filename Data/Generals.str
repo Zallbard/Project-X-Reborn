@@ -1,3 +1,56 @@
+OBJECT:Halo
+"Halo"
+END
+CONTROLBAR:ConstructRussiaVehicleHalo
+"Hal&o"
+END
+CONTROLBAR:ToolTipRussiaVehicleHalo
+"Heavy Transport Helicopter.\n Can transport up to 18 infantry units.\n Can carry armored vehicles\n \n\n Strong vs. infantry\n Weak vs. anti-air units"
+END
+
+OBJECT:WereWolf
+"WereWolf"
+END
+CONTROLBAR:ConstructRussiaWereWolf
+"KA-50 WereWolf"
+END
+CONTROLBAR:ToolTipRussiaBuildWereWolf
+"Anti-Tank Helicopter.\n Armed with auto cannons and anti-tank missiles.\n Can attack while moving.\n\n Strong vs. vehicles, infantry\n Weak vs. fighters, anti-air units"
+END
+
+OBJECT:Fulcrum
+"Fulcrum"
+END
+CONTROLBAR:ConstructRussiaJetFulcrum
+"Fulcr&um"
+END
+CONTROLBAR:ToolTipRussiaJetFulcrum
+"Jet Fighter.\n Armed with machine guns, air-air missiles and air-ground missiles.\n\n Strong vs. aircraft, vehicle \n Weak vs. heavy anti-air units"
+END
+
+OBJECT:Greyhound
+"Greyhound"
+END
+CONTROLBAR:ConstructRussiaGreyhound
+"Grey&hound"
+END
+CONTROLBAR:ToolTipRussiaBuildGreyhound
+"Anti-Air Vehicle.\n Armed with dual auto cannons and missiles.\n Attacks aircraft with auto cannons and missiles.\n Attacks ground targets with auto cannons.\n\n Strong vs. infantry, aircraft\n Weak vs. tanks"
+END
+
+CONTROLBAR:VeteranSpecialistsAirplane
+"&Veteran Airplains Specialists"
+END
+CONTROLBAR:ToolTipRusScienceVeteranAirplane
+"All airplains will be trained as veteran."
+END
+SCIENCE:VeteranPilotHelicopter
+"Veteran Airforce Company"
+END
+CONTROLBAR:ToolTipScienceVeteranPilotHelicopter
+"Helicoptere will be trained as veteran. \n Unlocks Veteran Airplains Specialists Upgrade."
+END
+
 OBJECT:G6Howitzer
 "Addax"
 END
