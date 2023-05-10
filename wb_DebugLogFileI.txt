@@ -1,4 +1,4 @@
-Log E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\wb_DebugLogFileI.txt opened: Sun May 07 11:45:40 2023
+Log E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\wb_DebugLogFileI.txt opened: Wed May 10 11:41:37 2023
 
 *** Initing Memory Manager prior to main!
 starting Worldbuilder.
@@ -175,7 +175,7 @@ IP: 0x0664A8C0 / 0xC0A86406 (192.168.100.6)
 Hostname is 'KOMPUTER'
 IP: 0x5D1CED1A / 0x1AED1C5D (26.237.28.93)
 IP: 0x0664A8C0 / 0xC0A86406 (192.168.100.6)
-TheWritableGlobalData 4e4689c
+TheWritableGlobalData 4ef3b34
 GetStringFromRegistry - looking in SOFTWARE\Electronic Arts\EA Games\Command and Conquer Generals Zero Hour for key Language
 Looking in data\Generals.str for string file
 ScriptEngine::setGlobalDifficulty(1)
@@ -186,9 +186,9 @@ THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
-WW3D::Init hwnd = 002F0DC4
+WW3D::Init hwnd = 00010D30
 Init DX8Wrapper
-DX8Wrapper main thread: 0x13bc
+DX8Wrapper main thread: 0x1a28
 Reset DX8Wrapper statistics
 Create Direct3D8
 Enumerate devices
@@ -199,7 +199,7 @@ WW3D Init completed
 Attempting Set_Render_Device: name: NVIDIA GeForce GTX 1060 6GB (nvldumd.dll:31.0.15.3179), width: 800, height: 600, windowed: 1
 Found zbuffer mode D3DFMT_D24S8
 Using Display/BackBuffer Formats: D3DFMT_X8R8G8B8/D3DFMT_A8R8G8B8
-ThreadClass::Execute: Started thread Texture loader thread, thread ID is 878
+ThreadClass::Execute: Started thread Texture loader thread, thread ID is 850
 Reset/Create_Device done, reset_device=0, restore_assets=1
 ShaderManager ChipsetID 4
 Targa: Failed to open file "trstrtholecvr.tga"
@@ -214,5 +214,5 @@ Base tex height 256
 *** MISSING: 'OBJECT:ChinookArmor' ***
 *** End missing strings ***
 
-Log closed: Sun May 07 11:45:52 2023
+Log closed: Wed May 10 11:41:50 2023
 
