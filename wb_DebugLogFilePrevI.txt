@@ -1,4 +1,4 @@
-Log E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\wb_DebugLogFileI.txt opened: Wed May 10 11:40:49 2023
+Log E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\wb_DebugLogFileI.txt opened: Wed May 10 11:41:37 2023
 
 *** Initing Memory Manager prior to main!
 starting Worldbuilder.
@@ -175,7 +175,7 @@ IP: 0x0664A8C0 / 0xC0A86406 (192.168.100.6)
 Hostname is 'KOMPUTER'
 IP: 0x5D1CED1A / 0x1AED1C5D (26.237.28.93)
 IP: 0x0664A8C0 / 0xC0A86406 (192.168.100.6)
-TheWritableGlobalData 50c63c4
+TheWritableGlobalData 4ef3b34
 GetStringFromRegistry - looking in SOFTWARE\Electronic Arts\EA Games\Command and Conquer Generals Zero Hour for key Language
 Looking in data\Generals.str for string file
 ScriptEngine::setGlobalDifficulty(1)
@@ -186,87 +186,33 @@ THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
+WW3D::Init hwnd = 00010D30
+Init DX8Wrapper
+DX8Wrapper main thread: 0x1a28
+Reset DX8Wrapper statistics
+Create Direct3D8
+Enumerate devices
+DX8Wrapper Init completed
+Allocate Debug Resources
+Init Dazzles
+WW3D Init completed
+Attempting Set_Render_Device: name: NVIDIA GeForce GTX 1060 6GB (nvldumd.dll:31.0.15.3179), width: 800, height: 600, windowed: 1
+Found zbuffer mode D3DFMT_D24S8
+Using Display/BackBuffer Formats: D3DFMT_X8R8G8B8/D3DFMT_A8R8G8B8
+ThreadClass::Execute: Started thread Texture loader thread, thread ID is 850
+Reset/Create_Device done, reset_device=0, restore_assets=1
+ShaderManager ChipsetID 4
+Targa: Failed to open file "trstrtholecvr.tga"
+Base tex height 256
+***
 
-********** EXCEPTION DUMP ****************
-Dump exception info
-Exception is access violation
-WinMain at b88bf6
-Found exception description
-Error code: EXCEPTION_ACCESS_VIOLATION
-Description: The thread tried to read from or write to a virtual address for which it does not have the appropriate access.
-Access address:40200000 was read from.
+*** Missing strings ***
+*** MISSING: 'OBJECT:Eurofighter' ***
+*** MISSING: 'OBJECT:AmmoStockPile' ***
+*** MISSING: 'OBJECT:Fuel' ***
+*** MISSING: 'OBJECT:GattlingAddon' ***
+*** MISSING: 'OBJECT:ChinookArmor' ***
+*** End missing strings ***
 
-Stack Dump:
-Call Stack
-**********
-  <Unknown>(-1) : <Unknown> 0x767396B0
-  <Unknown>(-1) : <Unknown> 0x007A433D
-  <Unknown>(-1) : <Unknown> 0x007A419F
-  <Unknown>(-1) : <Unknown> 0x0074ABA8
-  <Unknown>(-1) : <Unknown> 0x0074ABB8
-  <Unknown>(-1) : <Unknown> 0x007A1E3B
-  <Unknown>(-1) : <Unknown> 0x006C4024
-  <Unknown>(-1) : <Unknown> 0x0049451D
-  <Unknown>(-1) : <Unknown> 0x004929CE
-  <Unknown>(-1) : <Unknown> 0x6FE94F3A
-  <Unknown>(-1) : <Unknown> 0x00B88C0B
-  <Unknown>(-1) : <Unknown> 0x762000F9
-  <Unknown>(-1) : <Unknown> 0x779C7BBE
-  <Unknown>(-1) : <Unknown> 0x779C7B8E
+Log closed: Wed May 10 11:41:50 2023
 
-Details:
-Register dump...
-Eip:767396B0 Esp:00199FE8 Ebp:00199FF8
-Eax:0019CA28 Ebx:FFFFFFFF Ecx:0019CA28
-Edx:40200000 Esi:00491B96 Edi:00DE79B8
-EFlags:00010246 
-CS:0023  SS:002b  DS:002b  ES:002b  FS:0053  GS:002b
-EIP bytes dump...
-
-Bytes at CS:EIP (767396B0)  : 8B 02 3A 01 75 2E 0A C0 74 26 3A 61 01 75 25 0A E4 74 1D C1 E8 10 3A 41 02 75 19 0A C0 74 11 3A 
-********** END EXCEPTION DUMP ****************
-
-
-********** EXCEPTION DUMP ****************
-Dump exception info
-Exception is access violation
-WinMain at b88bf6
-Found exception description
-Error code: EXCEPTION_ACCESS_VIOLATION
-Description: The thread tried to read from or write to a virtual address for which it does not have the appropriate access.
-Access address:40200000 was read from.
-
-Stack Dump:
-Call Stack
-**********
-  <Unknown>(-1) : <Unknown> 0x767396B0
-  <Unknown>(-1) : <Unknown> 0x007A433D
-  <Unknown>(-1) : <Unknown> 0x007A419F
-  <Unknown>(-1) : <Unknown> 0x0074ABA8
-  <Unknown>(-1) : <Unknown> 0x0074ABB8
-  <Unknown>(-1) : <Unknown> 0x007A1E3B
-  <Unknown>(-1) : <Unknown> 0x006C4024
-  <Unknown>(-1) : <Unknown> 0x0049451D
-  <Unknown>(-1) : <Unknown> 0x004929CE
-  <Unknown>(-1) : <Unknown> 0x6FE94F3A
-  <Unknown>(-1) : <Unknown> 0x00B88C0B
-  <Unknown>(-1) : <Unknown> 0x762000F9
-  <Unknown>(-1) : <Unknown> 0x779C7BBE
-  <Unknown>(-1) : <Unknown> 0x779C7B8E
-
-Details:
-Register dump...
-Eip:767396B0 Esp:00199FE8 Ebp:00199FF8
-Eax:0019CA28 Ebx:FFFFFFFF Ecx:0019CA28
-Edx:40200000 Esi:00491B96 Edi:00DE79B8
-EFlags:00010246 
-CS:0023  SS:002b  DS:002b  ES:002b  FS:0053  GS:002b
-EIP bytes dump...
-
-Bytes at CS:EIP (767396B0)  : 8B 02 3A 01 75 2E 0A C0 74 26 3A 61 01 75 25 0A E4 74 1D C1 E8 10 3A 41 02 75 19 0A C0 74 11 3A 
-********** END EXCEPTION DUMP ****************
-
-ASSERTION FAILURE: Error parsing block 'Armo' in INI file 'Data\INI\Armor.ini'
-
-Stack Dump:
-[Ignore]
