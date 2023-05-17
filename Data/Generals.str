@@ -16156,11 +16156,11 @@ GUI:EACopyright
 END
 
 GUI:Easy
-"Sturm Tactics"
+"Assault Tactic"
 END
 
 GUI:EasyAI
-"Sturm Tactics"
+"Assault Tactic"
 END
 
 GUI:EasyCaps
@@ -16648,11 +16648,11 @@ GUI:GuardDescription
 END
 
 GUI:Hard
-"Hard"
+"Balance Tactic"
 END
 
 GUI:HardAI
-"Hard Army"
+"Balance Tactic"
 END
 
 GUI:HardCaps
@@ -17036,15 +17036,15 @@ GUI:MaxSelectionSize
 END
 
 GUI:Medium
-"Medium"
+"Siege Tactic"
 END
 
 GUI:MediumAI
-"Medium Army"
+"Siege Tactic"
 END
 
 GUI:MediumDifficulty
-"Medium"
+"Siege Tactic"
 END
 
 GUI:MediumDifficultyCaps
