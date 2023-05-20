@@ -1,4 +1,4 @@
-Log E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\wb_DebugLogFileI.txt opened: Wed May 17 21:33:44 2023
+Log E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\wb_DebugLogFileI.txt opened: Sat May 20 20:51:13 2023
 
 *** Initing Memory Manager prior to main!
 starting Worldbuilder.
@@ -164,7 +164,7 @@ Win32BIGFileSystem::openArchiveFile - size of archive file is 7962700 bytes
 Win32BIGFileSystem::openArchiveFile - 78 are contained in archive
 Win32BIGFileSystem::loadBigFilesFromDirectory - loading E:\Game\Command and Conquer - Generals\Command and Conquer Generals\Window.big into the directory tree.
 Win32BIGFileSystem::loadBigFilesFromDirectory - E:\Game\Command and Conquer - Generals\Command and Conquer Generals\Window.big inserted into the archive file map.
-EXE CRC: 0x0D5466F4
+EXE CRC: 0x96F770FE
 GetStringFromRegistry - looking in SOFTWARE\Electronic Arts\EA Games\Command and Conquer Generals Zero Hour for key UserDataLeafName
 Hostname is 'KOMPUTER'
 IP: 0x5D1CED1A / 0x1AED1C5D (26.237.28.93)
@@ -175,7 +175,7 @@ IP: 0x0664A8C0 / 0xC0A86406 (192.168.100.6)
 Hostname is 'KOMPUTER'
 IP: 0x5D1CED1A / 0x1AED1C5D (26.237.28.93)
 IP: 0x0664A8C0 / 0xC0A86406 (192.168.100.6)
-TheWritableGlobalData 4eb6b0c
+TheWritableGlobalData 4e8dfac
 GetStringFromRegistry - looking in SOFTWARE\Electronic Arts\EA Games\Command and Conquer Generals Zero Hour for key Language
 Looking in data\Generals.str for string file
 ScriptEngine::setGlobalDifficulty(1)
@@ -186,9 +186,9 @@ THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
-WW3D::Init hwnd = 00060CE6
+WW3D::Init hwnd = 00180050
 Init DX8Wrapper
-DX8Wrapper main thread: 0x16fc
+DX8Wrapper main thread: 0x288c
 Reset DX8Wrapper statistics
 Create Direct3D8
 Enumerate devices
@@ -199,13 +199,13 @@ WW3D Init completed
 Attempting Set_Render_Device: name: NVIDIA GeForce GTX 1060 6GB (nvldumd.dll:31.0.15.3179), width: 1024, height: 768, windowed: 1
 Found zbuffer mode D3DFMT_D24S8
 Using Display/BackBuffer Formats: D3DFMT_X8R8G8B8/D3DFMT_A8R8G8B8
-ThreadClass::Execute: Started thread Texture loader thread, thread ID is 880
+ThreadClass::Execute: Started thread Texture loader thread, thread ID is 834
 Reset/Create_Device done, reset_device=0, restore_assets=1
 ShaderManager ChipsetID 4
 Targa: Failed to open file "trstrtholecvr.tga"
 Base tex height 256
-Looking for map-specific text in [E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\Maps\!PRX AI\map.str]
-Looking in E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\Maps\!PRX AI\map.str for string file
+Looking for map-specific text in [C:\Users\Zallbard Limited\Documents\Command and Conquer Generals Zero Hour Data\Maps\!PRX AI\map.str]
+Looking in C:\Users\Zallbard Limited\Documents\Command and Conquer Generals Zero Hour Data\Maps\!PRX AI\map.str for string file
 Validating
 Player 'SkirmishAmericaAirForceGeneral' Faction 'FactionAmericaAirForceGeneral' could not be found in sides list!
 Player 'SkirmishChinaTankGeneral' Faction 'FactionChinaTankGeneral' could not be found in sides list!
@@ -215,8 +215,8 @@ Player 'SkirmishGLADemolitionGeneral' Faction 'FactionGLADemolitionGeneral' coul
 Player 'SkirmishGLAToxinGeneral' Faction 'FactionGLAToxinGeneral' could not be found in sides list!
 Player 'SkirmishGLAStealthGeneral' Faction 'FactionGLAStealthGeneral' could not be found in sides list!
 Base tex height 1024
-Peek mouse 941, 218
-Compressed 1507665 bytes to 197415 bytes - compression of 13.0941%
+Compressed 1551285 bytes to 198422 bytes - compression of 12.7908%
+Compressed 1551285 bytes to 198422 bytes - compression of 12.7908%
 ***
 
 *** Missing strings ***
@@ -227,5 +227,5 @@ Compressed 1507665 bytes to 197415 bytes - compression of 13.0941%
 *** MISSING: 'OBJECT:ChinookArmor' ***
 *** End missing strings ***
 
-Log closed: Wed May 17 21:34:30 2023
+Log closed: Sat May 20 20:52:43 2023
 
