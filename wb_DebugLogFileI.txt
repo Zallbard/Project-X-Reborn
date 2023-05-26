@@ -1,4 +1,4 @@
-Log E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\wb_DebugLogFileI.txt opened: Sun May 21 18:47:57 2023
+Log E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\wb_DebugLogFileI.txt opened: Fri May 26 19:57:35 2023
 
 *** Initing Memory Manager prior to main!
 starting Worldbuilder.
@@ -164,7 +164,7 @@ Win32BIGFileSystem::openArchiveFile - size of archive file is 7962700 bytes
 Win32BIGFileSystem::openArchiveFile - 78 are contained in archive
 Win32BIGFileSystem::loadBigFilesFromDirectory - loading E:\Game\Command and Conquer - Generals\Command and Conquer Generals\Window.big into the directory tree.
 Win32BIGFileSystem::loadBigFilesFromDirectory - E:\Game\Command and Conquer - Generals\Command and Conquer Generals\Window.big inserted into the archive file map.
-EXE CRC: 0xA113AB39
+EXE CRC: 0x15C9669D
 GetStringFromRegistry - looking in SOFTWARE\Electronic Arts\EA Games\Command and Conquer Generals Zero Hour for key UserDataLeafName
 Hostname is 'KOMPUTER'
 IP: 0x5D1CED1A / 0x1AED1C5D (26.237.28.93)
@@ -175,7 +175,7 @@ IP: 0x0664A8C0 / 0xC0A86406 (192.168.100.6)
 Hostname is 'KOMPUTER'
 IP: 0x5D1CED1A / 0x1AED1C5D (26.237.28.93)
 IP: 0x0664A8C0 / 0xC0A86406 (192.168.100.6)
-TheWritableGlobalData 4db5bcc
+TheWritableGlobalData 4e46a44
 GetStringFromRegistry - looking in SOFTWARE\Electronic Arts\EA Games\Command and Conquer Generals Zero Hour for key Language
 Looking in data\Generals.str for string file
 ScriptEngine::setGlobalDifficulty(1)
@@ -186,9 +186,9 @@ THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
 THRUST locos may not have zero m_minSpeed; healing...
-WW3D::Init hwnd = 000C0BC4
+WW3D::Init hwnd = 000A036A
 Init DX8Wrapper
-DX8Wrapper main thread: 0x2268
+DX8Wrapper main thread: 0x130
 Reset DX8Wrapper statistics
 Create Direct3D8
 Enumerate devices
@@ -196,33 +196,14 @@ DX8Wrapper Init completed
 Allocate Debug Resources
 Init Dazzles
 WW3D Init completed
-Attempting Set_Render_Device: name: NVIDIA GeForce GTX 1060 6GB (nvldumd.dll:31.0.15.3179), width: 1024, height: 768, windowed: 1
+Attempting Set_Render_Device: name: NVIDIA GeForce GTX 1060 6GB (nvldumd.dll:31.0.15.3203), width: 1024, height: 768, windowed: 1
 Found zbuffer mode D3DFMT_D24S8
 Using Display/BackBuffer Formats: D3DFMT_X8R8G8B8/D3DFMT_A8R8G8B8
-ThreadClass::Execute: Started thread Texture loader thread, thread ID is 864
+ThreadClass::Execute: Started thread Texture loader thread, thread ID is 844
 Reset/Create_Device done, reset_device=0, restore_assets=1
 ShaderManager ChipsetID 4
 Targa: Failed to open file "trstrtholecvr.tga"
 Base tex height 256
-Looking for map-specific text in [E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\Maps\AIDATA_USABuildList\map.str]
-Looking in E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\Maps\AIDATA_USABuildList\map.str for string file
-Validating
-Player 'SkirmishAmericaAirForceGeneral' Faction 'FactionAmericaAirForceGeneral' could not be found in sides list!
-Player 'SkirmishChinaTankGeneral' Faction 'FactionChinaTankGeneral' could not be found in sides list!
-Player 'SkirmishChinaNukeGeneral' Faction 'FactionChinaNukeGeneral' could not be found in sides list!
-Player 'SkirmishChinaInfantryGeneral' Faction 'FactionChinaInfantryGeneral' could not be found in sides list!
-Player 'SkirmishGLADemolitionGeneral' Faction 'FactionGLADemolitionGeneral' could not be found in sides list!
-Player 'SkirmishGLAToxinGeneral' Faction 'FactionGLAToxinGeneral' could not be found in sides list!
-Player 'SkirmishGLAStealthGeneral' Faction 'FactionGLAStealthGeneral' could not be found in sides list!
-Base tex height 256
-Peek mouse 485, 476
-Peek mouse 409, 418
-Peek mouse 525, 471
-Compressed 623970 bytes to 4812 bytes - compression of 0.771191%
-Peek mouse 407, 134
-Compressed 623970 bytes to 4812 bytes - compression of 0.771191%
-Compressed 623970 bytes to 4812 bytes - compression of 0.771191%
-Compressed 623970 bytes to 4812 bytes - compression of 0.771191%
 Looking for map-specific text in [E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\Maps\AAA PRX AI\map.str]
 Looking in E:\Game\Project X (Reborn)\Command and Conquer Generals Zero Hour\Maps\AAA PRX AI\map.str for string file
 Validating
@@ -234,43 +215,8 @@ Player 'SkirmishGLADemolitionGeneral' Faction 'FactionGLADemolitionGeneral' coul
 Player 'SkirmishGLAToxinGeneral' Faction 'FactionGLAToxinGeneral' could not be found in sides list!
 Player 'SkirmishGLAStealthGeneral' Faction 'FactionGLAStealthGeneral' could not be found in sides list!
 Base tex height 1024
-Compressed 1561728 bytes to 199428 bytes - compression of 12.7697%
-Compressed 1562092 bytes to 199450 bytes - compression of 12.7681%
-Compressed 1562761 bytes to 199503 bytes - compression of 12.7661%
-Compressed 1562761 bytes to 199503 bytes - compression of 12.7661%
-Compressed 1562761 bytes to 199503 bytes - compression of 12.7661%
-Compressed 1562761 bytes to 199503 bytes - compression of 12.7661%
-Peek mouse 285, 727
-Peek mouse 209, 77
-Compressed 1563737 bytes to 199558 bytes - compression of 12.7616%
-Compressed 1563737 bytes to 199558 bytes - compression of 12.7616%
-Compressed 1563737 bytes to 199558 bytes - compression of 12.7616%
-Compressed 1563736 bytes to 199572 bytes - compression of 12.7625%
-Compressed 1563736 bytes to 199581 bytes - compression of 12.7631%
-Peek mouse 560, 325
-Compressed 1563736 bytes to 199581 bytes - compression of 12.7631%
-Compressed 1563742 bytes to 199586 bytes - compression of 12.7634%
-Compressed 1563742 bytes to 199586 bytes - compression of 12.7634%
-Compressed 1564039 bytes to 199639 bytes - compression of 12.7643%
-Peek mouse 148, 719
-Compressed 1564039 bytes to 199639 bytes - compression of 12.7643%
-Compressed 1564649 bytes to 199674 bytes - compression of 12.7616%
-Compressed 1564649 bytes to 199674 bytes - compression of 12.7616%
-Compressed 1565618 bytes to 199732 bytes - compression of 12.7574%
-Compressed 1565618 bytes to 199732 bytes - compression of 12.7574%
-Compressed 1565981 bytes to 199793 bytes - compression of 12.7583%
-Compressed 1565981 bytes to 199793 bytes - compression of 12.7583%
-Compressed 1565993 bytes to 199797 bytes - compression of 12.7585%
-Compressed 1565993 bytes to 199797 bytes - compression of 12.7585%
-Peek mouse 537, 413
-Peek mouse 537, 413
-Peek mouse 238, 118
-Compressed 1563108 bytes to 199575 bytes - compression of 12.7678%
-Compressed 1563108 bytes to 199575 bytes - compression of 12.7678%
-Peek mouse 537, 571
-Compressed 1563113 bytes to 199569 bytes - compression of 12.7674%
-Compressed 1563113 bytes to 199569 bytes - compression of 12.7674%
-Compressed 1563113 bytes to 199567 bytes - compression of 12.7673%
+Peek mouse 151, 492
+Compressed 1613151 bytes to 200693 bytes - compression of 12.4411%
 ***
 
 *** Missing strings ***
@@ -281,5 +227,5 @@ Compressed 1563113 bytes to 199567 bytes - compression of 12.7673%
 *** MISSING: 'OBJECT:ChinookArmor' ***
 *** End missing strings ***
 
-Log closed: Sun May 21 20:51:26 2023
+Log closed: Fri May 26 20:04:04 2023
 
