@@ -1,3 +1,90 @@
+CONTROLBAR:SelectSuperPowers
+"Super Powers"
+END
+CONTROLBAR:ToolTipSelectSuperPowers
+"In this team, only attackers are promoted.\n\n Deploy from: Command Center"
+END
+CONTROLBAR:SelectSupportPowers
+"Support Powers"
+END
+CONTROLBAR:ToolTipSelectSupportPowers
+"This command only increases support. \n\n Deploy from: Command Center"
+END
+CONTROLBAR:AmericaSpecOpsDrop
+"Secret Operation"
+END
+CONTROLBAR:AmericaSpecOpsDropToolTip
+"Inserts Commando Infantry by Helicopter."
+END
+
+SCIENCE:AmericaSpecOps
+"Spec-Ops 1 - Black Operation 1"
+END
+CONTROLBAR:AmericaSpecOpsToolTip
+"Drops off 4 Commando units from helicopters. Level 1"
+END
+
+CONTROLBAR:AirF_HeliAmbush
+"Helicopter Support."
+END
+CONTROLBAR:TooltipAirF_HeliAmbush
+"Calls in Apache helicopters.\n \n Countdown Timer: 4:00"
+END
+
+SCIENCE:HelicopterSupport1
+"Helicopter Support 1"
+END
+CONTROLBAR:HelicopterSupport1ToolTip
+"Calls in 3 Apache helicopters as reinforcements. Level 1"
+END
+
+CONTROLBAR:ToolTipUSABuildATVHumvee
+"Infantry Transport Vehicle.\n Armed with a minigun.\n Can transport up to 5 infantry units.\n Can be upgraded with drones.\n Immediately loaded with Infantry. \n\n Strong vs. infantry \n Weak vs. tanks"
+END
+
+SCIENCE:AirDeployMarker
+"Air Deploy Signal"
+END
+CONTROLBAR:ToolTipScienceAirDeployMarker
+"Allows constrution of units by parachute.\nDuration: 1 minute.  \n \n Deploy from: Command Center"
+END
+CONTROLBAR:ToolTipScienceAirDeployMarker_Button
+"Allows constrution of units by parachute.\nDuration: 1 minute."
+END
+
+CONTROLBAR:ShortcutCarrierStrike
+"Carrier Airstrike"
+END
+CONTROLBAR:ToolTipUSAScienceCarrierStrike
+"Calls in several F18 Hornet squadrons.\n These will bombard the selected target area. \n \n Deploy from: Command Center"
+END
+CONTROLBAR:CarrierStrike
+"&Carrier Airstrike"
+END
+CONTROLBAR:ToolTipUSACarrierStrike
+"Strong vs. Structures, Large masses of enemy units \n \n Countdown Timer: 3:00"
+END
+
+CONTROLBAR:CrateDropShortcut
+"Crate Drop"
+END
+CONTROLBAR:ToolTipUSAScienceCrateDrop
+"Drop supply crates worth of $3000 by plane. Anyone can pick the dropped supply crates \n \n Countdown Timer: 4:00"
+END
+
+
+SCIENCE:USASpyDrone
+"Call Spy Drone"
+END
+
+CONTROLBAR:ToolTipUSAScienceSpyDrone
+"Deploy a spy drone at a target location. \n Spy Drones are stealthed. \n \n Deploy from: Command Center"
+END
+
+CONTROLBAR:TooltipFireSpyDrone
+"Create spy drone over target. \n \n Countdown Timer: 2:30"
+END
+
 OBJECT:Halo
 "Halo"
 END
@@ -931,6 +1018,10 @@ END
 
 CONTROLBAR:ConstructAmericaVehicleHellfireDrone
 "Hell&fire Drone"
+END
+
+CONTROLBAR:ConstructAmericaVehicleATVHumvee
+"ATV Hum&vee"
 END
 
 CONTROLBAR:ConstructAmericaVehicleHumvee
@@ -2645,10 +2736,6 @@ CONTROLBAR:TooltipFireSCUDStorm
 "Launch a Scud missile barrage at a target area.\n Leaves lingering toxins in its wake. \n\n Countdown Timer: 7:00"
 END
 
-CONTROLBAR:TooltipFireSpyDrone
-"Create spy drone over target. \n \n Countdown Timer: 3:00"
-END
-
 CONTROLBAR:TooltipFireSpySatScan
 "Reveals a target area.\n\n Countdown Timer: 2:00"
 END
@@ -3078,7 +3165,7 @@ CONTROLBAR:TooltipScienceBlackMarketNuke
 END
 
 CONTROLBAR:ToolTipScienceEmergencyRepair
-"Provides immediate aid in a target area.\n Heals infantry and repairs units and structures.\n\n Rank 1: 5 Seconds of aid\n Rank 2: 10 Seconds of aid\n Rank 3: 20 Seconds of aid\n\n Deploy from: Command Center"
+"Provides immediate aid in a target area. \n Heals infantry and repairs units and structures. \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipScienceGPSScrambler
@@ -17476,15 +17563,15 @@ GUI:Rank
 END
 
 GUI:Rank1Required
-"RANK REQUIRED - 1 Star General"
+"RANK REQUIRED - 2 Star General"
 END
 
 GUI:Rank3Required
-"RANK REQUIRED - 3 Star General"
+"RANK REQUIRED - 6 Star General"
 END
 
 GUI:Rank8Required
-"RANK REQUIRED - 5 Star General"
+"RANK REQUIRED - 8 Star General"
 END
 
 GUI:RecentSave
@@ -31958,6 +32045,19 @@ END
 
 CONTROLBAR:ToolTipUSABuildAcolyte
 "Light Tank.\n Armed with a cannon and coaxial machine gun.\n Can be upgraded with drones\n\n Strong vs. tanks, structures\n Weak vs. aircraft"
+END
+
+CONTROLBAR:USAReinforcementParadrop
+"Reinforcem&ent Paradrop"
+END
+SCIENCE:USAReinforcementParadrop
+"Reinforcement Paradrop"
+END
+CONTROLBAR:ToolTipUSAScienceReinforcementParadrop
+"Drops global landing of infantry and armored vehicles. \n\n Deploy from: Command Center"
+END
+CONTROLBAR:TooltipAmericaReinforcementParadrop
+"Air drop light tanks, vehicles and special infantry. \n\n Countdown Timer: 4:00"
 END
 
 SCIENCE:USAAcolyteTankDrop
