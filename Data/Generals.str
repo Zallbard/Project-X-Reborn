@@ -1,3 +1,24 @@
+SCIENCE:chinabenzindrop
+"Spill Fuel"
+END
+CONTROLBAR:tooltipchinasciencebenzindrop
+"Spills fuel in pointed area. Fuel is harmless by itself, but it can be set on fire by any incendiary weapon. \n\n Rank 1: 3 spills \n Rank 2: 6 spills \n Rank 3: 9 spills."
+END
+
+CONTROLBAR:SWep_DragonStar
+"Dragonstar"
+END
+CONTROLBAR:TooltipSWep_DragonStar
+"A Dragonstar drone circles the battlefield and attacks enemy forces with laser-guided missiles \n \n Deploy from: Command Center"
+END
+
+CONTROLBAR:benzindrop
+"S&pill fuel"
+END
+CONTROLBAR:tooltipchinabenzindrop
+"Spill fuel in desired area. \n\n Countdown Timer: 4:30"
+END
+
 CONTROLBAR:SelectSuperPowers
 "Super Powers"
 END
@@ -2009,7 +2030,11 @@ CONTROLBAR:ShortcutNapalmStrike
 END
 
 CONTROLBAR:ToolTipChinaScienceNapalmStrike
-"Allows the calling of a massive napalm strike.\n\n Deploy from: Command Center"
+"Allows the calling of a napalm strike.\n\n Deploy from: Command Center"
+END
+
+CONTROLBAR:ToolTipChinaScienceNapalmBomb
+"Allows the calling of a massive napalm bombarding.\n\n Deploy from: Command Center"
 END
 
 CONTROLBAR:ShortcutNukeStrike
@@ -2493,7 +2518,7 @@ CONTROLBAR:ToolTipChinaScienceGattlingTankTraining
 END
 
 CONTROLBAR:INFA_ToolTipChinaScienceInfantryParadrop
-"Drop Mini-Gunners and Tank Hunters from the air. \n \n Rank 1: 5 Mini-Gunners 2 Tank Hunters\n Rank 2: 10 Mini-Gunners 4 Tank Hunters\n Rank 3: 20 Mini-Gunners 8 Tank Hunters\n \n Deploy from: Command Center"
+"Drop Red Guards and Tank Hunters from the air. \n \n Rank 1: 5 Red Guards 2 Tank Hunters\n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceInfantryParadrop
@@ -2521,7 +2546,7 @@ CONTROLBAR:ToolTipChinaScienceTankHunterTraining
 END
 
 CONTROLBAR:ToolTipChinaScienceTankParadrop
-"Drop Battlemasters and Gattling Tanks from the air. \n \n Rank 1: 1 Battlemaster 1 Gattling Tank \n Rank 2: 2 Battlemasters 1 Gattling Tank \n Rank 3: 4 Battlemasters 2 Gattling Tank \n \n Deploy from: Command Center"
+"Drop Hopper from the air. \n \n Rank 1: 1 Hopper 3 \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceWarMasterTank
@@ -18271,7 +18296,11 @@ GUI:SuperweaponGPSScrambler
 END
 
 GUI:SuperweaponNapalmStrike
-"Napalm Strike"
+"Iron Dragon Strike"
+END
+
+GUI:SuperweaponNapalmBombard
+"Massive Napalm Strike"
 END
 
 GUI:SuperweaponNeutronMissile
