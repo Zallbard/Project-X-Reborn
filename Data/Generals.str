@@ -1,3 +1,28 @@
+SCIENCE:DemoTrapDrop1
+"Demo Trap Drop"
+END
+CONTROLBAR:DemoTrapDrop1
+"Reset demo traps from the air, then placed on the ground with automatic and manual detonation. \n\n Deploy from: Command Truck"
+END
+CONTROLBAR:Demo_DemoTrapDrop
+"Demo Trap Drop"
+END
+CONTROLBAR:Demo_DemoTrapDrop_ToolTip
+"Drops Demo Traps to target location.\n \n Countdown Timer: 4:00"
+END
+
+SCIENCE:ScrapUpgrade
+"Scrap Upgrade"
+END
+CONTROLBAR:ScrapUpgradeToolTip
+"Improves vehicles by 1 junk level in a small radius."
+END
+CONTROLBAR:SalvageRepair
+"Scrap U&pgrade"
+END
+CONTROLBAR:TooltipSalvageRepair
+"Improves vehicles by 1 junk level in a small radius.\n\n Deploy from: Command Truck \n\n Countdown Timer: 4:00"
+END
 SCIENCE:chinabenzindrop
 "Spill Fuel"
 END
