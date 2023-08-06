@@ -1,3 +1,26 @@
+SCIENCE:ClusterBombing
+"Cluster-Bombing"
+END
+
+CONTROLBAR:ClusterBombing_ToolTip
+"Strong vs. groups of units and buildings \n \n Countdown Timer: 6:00"
+END
+
+CONTROLBAR:ClusterBombing
+"Cluster-&Bombing"
+END
+
+CONTROLBAR:TooltipClusterBombing
+"Target for Cluster-Bombing. \n \n Countdown Timer: 6:00"
+END
+
+SCIENCE:GLAAirforce1
+"Demolition Plane"
+END
+CONTROLBAR:ToolTipGLAScienceAirforce1
+"Kamikaze Aircraft raid on a small area. \n\n Deploy from: Command Truck"
+END
+
 SCIENCE:DemoTrapDrop1
 "Demo Trap Drop"
 END
@@ -29288,10 +29311,6 @@ CONTROLBAR:ToolTipGLAVehicleInterceptor
 "Jet Fighter.\n Armed with machine guns and rockets pods. \n Attacks ground and air targets with machine guns.\n Attacks ground targets with rockets.\n Machine guns do not need to be rearmed. \n\n Strong vs. infantry, vehicles \n Weak vs. fighters, anti-air units"
 END
 
-SCIENCE:GLAAirforce1
-"Aerial Assets"
-END
-
 SCIENCE:GLAAirforce2
 "Aerial Ordnance"
 END
@@ -29300,9 +29319,7 @@ SCIENCE:GLAAirforce3
 "Aerial Acquisition"
 END
 
-CONTROLBAR:ToolTipGLAScienceAirforce1
-"Grants clearance to build a single airstrip. \n\n Unlocks ability to build a single airstrip.\n Unlocks Plague Duster.\n Unlocks Hyena Interceptor."
-END
+
 
 CONTROLBAR:ToolTipGLAScienceAirforce2
 "Acquire additional aircraft and equipment.\n\n Unlocks ability to build a second airstrip. \n Unlocks Vulture Bomber. \n Unlocks Overwatch Ability. \n\n Overwatch Deployed from: Airstrip"
