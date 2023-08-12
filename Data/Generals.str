@@ -1,3 +1,38 @@
+SCIENCE:demoralize
+"Demoralize"
+END
+CONTROLBAR:demoralize
+"Demora&lize"
+END
+CONTROLBAR:tooltipfiredemoralize
+"Demoralize enemy. \n\n Countdown Timer: 6:00"
+END
+CONTROLBAR:tooltipsciencedemoralize
+"Demoralizes targeted enemies for one minute. Does not affect buildings. \n Enemy units lose 50% damage, range, and rate of fire."
+END
+GUI:superweapondemoralize
+"Demoralize"
+END
+mouse:demoralize
+"Demoralize"
+END
+
+OBJECT:BRDM1
+"Roach"
+END
+
+CONTROLBAR:ConstructGLAVehicleBRDM1
+"Roa&ch"
+END
+
+CONTROLBAR:ToolTipGLABuildBRDM1
+"Fire Support Vehicle.\n Armed with long range Missiles.\n Is amphibious and can cross water. \n Can collect salvage from destroyed enemy Vehicles. \n\n Strong vs. Infantry, Vehicles \n Weak vs. Aircraft"
+END
+
+CONTROLBAR:ToolTipScienceBRDM1
+"Fires wire-guided Missiles.\n These can be fired at great range. \n\n Build at: Arms Dealer"
+END
+
 SCIENCE:ClusterBombing
 "Cluster-Bombing"
 END
