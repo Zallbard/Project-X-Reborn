@@ -1,3 +1,106 @@
+CONTROLBAR:ElectromagneticBomb
+"Drop Electromagnetic Bomb "
+END
+CONTROLBAR:TooltipFireECMBomb
+"Damage radius area 200. \n The electromagnetic cloud shuts down any equipment in the affected radius within 20 seconds \n Strong vs. Structures, Large groups of units \n \n Countdown Timer: 5:00"
+END
+SCIENCE:ECMBomb
+"Electromagnetic Bomb"
+END
+CONTROLBAR:ToolTipScienceECMBomb
+"Opens the reset of the electromagnetic bomb. \n\n Deploy from: Command Bunker"
+END
+
+SCIENCE:SmerchBarrage1
+"Smerch Barrage"
+END
+CONTROLBAR:ToolTipRussiaScienceSmerchBarrage
+"Request to strike MLRS smerch batteries. \n \n Rank 1: 12 Smerch Missile \n Deploy from: Command Bunker"
+END
+CONTROLBAR:SmerchBarrage1
+"Smerch Barrage"
+END
+CONTROLBAR:ToolTipRussiaSmerchBarrage
+"Damage radius area 125 \n Strong vs. Structures, Large groups of units \n \n Countdown Timer: 5:00"
+END
+SCIENCE:BulavaStrike
+"Bulava Strike"
+END
+CONTROLBAR:ToolTipBulavaStrike
+"Request to launch the Bulava ICBM. \n \n Rank 1: 1 Bulava Missile \n Deploy from: Command Bunker"
+END
+CONTROLBAR:BulavaStrike
+"Call Bulava Strike"
+END
+CONTROLBAR:ToolTipRussiaBulavaStrike
+"Damage radius area 125 \n Strong vs. Structures, Large groups of units \n \n Countdown Timer: 5:00"
+END
+
+SCIENCE:AmericaTungstenCores1
+"Launch of the Apollo Rocket"
+END
+CONTROLBAR:ToolTipAmericaScienceTungstenCores
+"An Apollo-class rocket with combustible elements is detonated in the atmosphere and forms fiery precipitation over the area \n\n Deploy from: Region Command"
+END
+
+CONTROLBAR:FireTungstenCoresNotHotkey
+"Launch of &the Apollo Rocket"
+END
+CONTROLBAR:ToolTipFireTungstenCores
+"Strong vs. Structures, Large groups of units \n \n Countdown Timer: 5:00"
+END
+
+CONTROLBAR:ToolTipSciencesatellitemw
+"Powerful satellite beam burns everything and disables buildings in selected area.\n Deploy from: Region Command"
+END
+SCIENCE:satellitemw
+"Microwave Beam"
+END
+CONTROLBAR:ToolTipsatellitemw
+"Concentrate a microwave beam at a specified area. Deals damage and disables buildings. \n\n Countdown Timer: 6:00"
+END
+
+CONTROLBAR:ToolTipUSAScienceArtilleryBarrage
+"Call artillery to strike your target.\n Fires automatically deployed machine-gun grenades. \n \n Rank 1: 3 Grenades \n Rank 2: 6 Grenades \n Rank 3: 9 Grenades \n \n Deploy from: Region Command"
+END
+CONTROLBAR:USAArtilleryBarrage
+"AD&MG Grenade Barrage"
+END
+CONTROLBAR:NoHotKeyUSAArtilleryBarrage
+"ADMG Grenade Barrage"
+END
+SCIENCE:USAArtilleryBarrage
+"ADMG Grenade Barrage 1"
+END
+SCIENCE:USAArtilleryBarrage2
+"ADMG Grenade Barrage 2"
+END
+SCIENCE:USAArtilleryBarrage3
+"ADMG Grenade Barrage 3"
+END
+CONTROLBAR:TooltipFireUSAArtilleryBarrage
+"Strong vs. Structures, Large groups of units \n \n Countdown Timer: 5:00"
+END
+
+
+CONTROLBAR:TooltipFireGPSScrambler
+"GPS Scramber \n Countdown Timer: 4:00"
+END
+
+SCIENCE:GLAArmorVehicleDrop
+"Armor Vehicle Drop"
+END
+CONTROLBAR:ToolTipScienceGLAArmorVehicleDrop
+"Allows an air drop of 3 Armor vehicles on a target area. \n\n Deploy from: Mobile Command Truck"
+END
+CONTROLBAR:GLAArmorVehicleDrop
+"Armor V&ehicle Drop"
+END
+CONTROLBAR:TooltipGLAArmorVehicleDrop
+"Air drop Armored anti-tank amphibian. \n\n Countdown Timer: 3:30"
+END
+
+
 SCIENCE:demoralize
 "Demoralize"
 END
@@ -11,9 +114,6 @@ CONTROLBAR:tooltipsciencedemoralize
 "Demoralizes targeted enemies for one minute. Does not affect buildings. \n Enemy units lose 50% damage, range, and rate of fire."
 END
 GUI:superweapondemoralize
-"Demoralize"
-END
-mouse:demoralize
 "Demoralize"
 END
 
@@ -134,14 +234,18 @@ END
 CONTROLBAR:TooltipAirF_HeliAmbush
 "Calls in Apache helicopters.\n \n Countdown Timer: 4:00"
 END
-
+CONTROLBAR:TooltipRussiaHelicopterAmbush
+"Calls in Hind helicopters.\n \n Countdown Timer: 4:00"
+END
 SCIENCE:HelicopterSupport1
 "Helicopter Support 1"
 END
 CONTROLBAR:HelicopterSupport1ToolTip
 "Calls in 3 Apache helicopters as reinforcements. Level 1"
 END
-
+CONTROLBAR:RussiaHelicopterSupport1ToolTip
+"Calls in 3 Hind helicopters as reinforcements. Level 1"
+END
 CONTROLBAR:ToolTipUSABuildATVHumvee
 "Infantry Transport Vehicle.\n Armed with a minigun.\n Can transport up to 5 infantry units.\n Can be upgraded with drones.\n Immediately loaded with Infantry. \n\n Strong vs. infantry \n Weak vs. tanks"
 END
@@ -1510,10 +1614,6 @@ END
 
 CONTROLBAR:Demo_ToolTipGLAUpgradeHEBomb
 "100% more damage for all Demo Traps"
-END
-
-CONTROLBAR:Demoralize
-"Demoralize"
 END
 
 CONTROLBAR:Detonate
@@ -3277,7 +3377,7 @@ CONTROLBAR:ToolTipScienceEmergencyRepair
 END
 
 CONTROLBAR:ToolTipScienceGPSScrambler
-"Permission to utilise GPS scrambler technology.\n\n Unlocks Scrambler Track. \n Unlocks Scrambler Station."
+"Permission to utilise GPS scrambler technology.\n\n Unlocks Scrambler Station."
 END
 
 CONTROLBAR:TooltipScienceNerveGasBomb
@@ -18362,10 +18462,6 @@ GUI:SuperweaponDaisyCutter
 "Fuel Air Bomb"
 END
 
-GUI:SuperweaponDemoralize
-"Demoralize"
-END
-
 GUI:SuperweaponEmergencyRepair
 "Emergency Aid"
 END
@@ -24920,14 +25016,22 @@ SCIENCE:Rank5
 END
 
 SCIENCE:Rank6
-"Major General"
+"5 Star General"
 END
 
 SCIENCE:Rank7
-"Lt. General"
+"Major General"
 END
 
 SCIENCE:Rank8
+"Lt. General"
+END
+
+SCIENCE:Rank9
+"Command General"
+END
+
+SCIENCE:Rank10
 "General Army"
 END
 
@@ -28270,6 +28374,14 @@ GUI:SuperweaponVDVParadrop
 "VDV Airborne"
 END
 
+CONTROLBAR:SuperweaponEuropeParadrop
+"Paradrop Airborne"
+END
+
+SCIENCE:EuropeParadrop1
+"ECA Airborne Raid"
+END
+
 SCIENCE:RussiaVDVParadrop1
 "VDV Airborne Raid"
 END
@@ -28286,12 +28398,20 @@ CONTROLBAR:ToolTipRussiaScienceVDVParaDrop
 "Allows dropping of VDV infantry and Wolverine IFV's.\n\n Rank 1: 3 LMG VDV, 2 RPG VDV, 1 Wolverine\n Rank 2: 6 LMG VDV, 4 RPG VDV, 2 Wolverines \n Rank 3: 9 LMG VDV, 6 RPG VDV, 3 Wolverines\n\n Deploy from: Command Bunker"
 END
 
+CONTROLBAR:ToolTipEuropeScienceECAParaDrop
+"Allows dropping of ECA infantry and Bloodhounds.\n\n Rank 1: 2 Felin, 1 Pioneer, 2 Panzer Faust, 1 Medic, 3 Bloodhound \n Deploy from: Region Command"
+END
+
 CONTROLBAR:VDVParadrop
 "&VDV Airborne"
 END
 
 CONTROLBAR:TooltipRussiaVDVParaDrop
 "Drops VDV infantry and Wolverines on a target area.\n\n Countdown Timer: 4:00"
+END
+
+CONTROLBAR:TooltipEuropeParaDrop
+"Drops ECA infantry and Bloodhound on a target area.\n\n Countdown Timer: 4:00"
 END
 
 CONTROLBAR:BuratinoBurstMode
@@ -32180,6 +32300,19 @@ END
 
 CONTROLBAR:TooltipAmericaTankdrop
 "Air drop Acolyte light tanks. \n\n Countdown Timer: 4:00"
+END
+
+SCIENCE:RussiaRhinoTankDrop
+"Rhino Tank Drop"
+END
+CONTROLBAR:RussiaRhinoTankDrop
+"Rhino Tank Drop"
+END
+CONTROLBAR:ToolTipRussiaScienceRhinoTankDrop
+"Allows an air drop of 3 Rhino tanks on a target area. \n\n Deploy from: Command Bunker"
+END
+CONTROLBAR:TooltipRussiaTankdrop
+"Air drop Rhino light tanks. \n\n Countdown Timer: 4:00"
 END
 
 OBJECT:Cyclops
