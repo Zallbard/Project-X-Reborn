@@ -181,14 +181,14 @@ WeaponFX_PatriotMissileDetonation
 WeaponFX_FlakMissileExplosion
 WeaponFX_StingerMissileDetonation
 WeaponFX_JarmenKellStingerMissileDetonation
-
+WeaponFX_ChaparralMissileDetonation
 ; Балистические Ракеты 
 WeaponFX_TomahawkMissileDetonation
 WeaponFX_Shockwave_SCUDMissileDetonationExplosive
 
 ; Балистические Ракеты Био
 WeaponFX_SCUDMissileDetonationToxin
-
+FX_ATACMSExplosion
 ; Мины
 WeaponFX_DroneMineDetonation
 WeaponFX_EurofigtherClusterExplosion

@@ -1,3 +1,162 @@
+OBJECT:AmericaTechCenter
+"Tech Center"
+END
+
+OBJECT:V25
+"V-25 Hercules"
+END
+CONTROLBAR:ConstructAmericaVehicleHercules
+"V-25 Hercules"
+END
+CONTROLBAR:ToolTipUSABUildHercules
+"Heavy Gunship. \n Armed with huge firepower.\n Can transport up to 4 infantry units. \n\n Strong vs. ground units.\n Weak vs. interceptors."
+END
+
+CONTROLBAR:ConstructAmericaJetA10
+"A10 Thu&nderbolt"
+END
+CONTROLBAR:ConstructAmericaJetA10Tooltip
+"Heavy ground attack plane\n\nStrong vs. ground units.\nWeak vs. interceptors."
+END
+
+OBJECT:Apache
+"Apache"
+END
+CONTROLBAR:ConstructAmericaVehicleApache
+"&Apache"
+END
+CONTROLBAR:ToolTipUSABuildApache
+"Armed with Missiles and Cannon. Reloads in the air. \n \n Strong vs. vehicles and infantry \n Weak vs. aircraft and AA"
+END
+
+OBJECT:F16XL
+"F-16XL Bomber"
+END
+CONTROLBAR:ConstructAmericaJetF16XL
+"F-16XL Bo&mber"
+END
+CONTROLBAR:ToolTipUSABuildF16XL
+"Ground Attack Bomber.\n Armed with a pair of precision bombs. \n \n Strong vs. Structures \n Weak vs. Fighters, Anti-Air Units"
+END
+
+OBJECT:VHurri
+"Himars"
+END
+CONTROLBAR:ConstructAmericaVehicleHimars
+"Himars"
+END
+CONTROLBAR:ToolTipUSABuildHimars
+"Highly mobile artillery missile system.\n Amred with a long range missile. \n Can be upgraded with drones. \n \n Strong vs. Vehicles, Structures \n Weak vs. Aircraft"
+END
+
+
+OBJECT:AirfTankCrusader
+"Sheridan"
+END
+CONTROLBAR:ConstructAmericaAirfTankCrusader
+"Sh&eridan"
+END
+CONTROLBAR:ToolTipUSABuildAirfCrusader
+"Light Tank.\n Armed with a cannon.\n Can be upgraded with drones.\n\n Strong vs. Vehicles, Structures \n Weak vs. Infantry, Aircraft"
+END
+CONTROLBAR:FireSheridanRocket
+"&Launch Shillelagh Anti-Tank Rocket"
+END
+CONTROLBAR:ToolTipFireSheridanRocket
+"Fire a Shillelagh Anti-tank rocket at the target."
+END
+
+OBJECT:MicrowaveHumvee
+"Microwave Humvee"
+END
+CONTROLBAR:ConstructAmericaMicrowaveHumvee
+"&Microwave Humvee"
+END
+CONTROLBAR:ToolTipUSABuildMicrowaveHumvee
+"Combat Support Vehicle.\n Armed with a microwave emitter.\n Disables enemy Structures.\n Kills enemy Infantry that come too close.\n Clears garrisons.\n Can be upgraded with drones.\n\n Strong vs. Infantry, Vehicles, Structures\n Weak vs. Aircraft"
+END
+
+OBJECT:Leopard
+"LOSAT Humvee"
+END
+CONTROLBAR:ConstructAmericaTankLeopard
+"L&OSAT Humvee"
+END
+CONTROLBAR:ToolTipAmericaTankLeopard
+"Anti-Tank Humvee.\n Armed with long range kinetic energy Missiles.\n\n Strong vs Tanks \n  Weak vs Infantry, Aircraft"
+END
+
+CONTROLBAR:AmericaDoctrineAirforce
+"Doctrine - Airforce"
+END
+CONTROLBAR:AmericaDoctrineAirforceTooltip
+"Key Features: \n - Strong Fighters \n - Strong Helicopters \n - Specialized Infantry \n - Weak but fast Vehicle \n - Weak Defense \n\n The doctrine of the Air Force dominates the airspace, allowing you to create surprise raids almost anywhere on the map. No enemy ground attack will be able to stand for a long time without the support of heavy air defense and radars. Special purpose infantry can create a lot of trouble for the opponent's economy. And light equipment, thanks to its speed, is able to counterattack and surround the enemy. \n Requires: 6 Rank"
+END
+
+CONTROLBAR:StrategicBombing
+"Strategic Bombing"
+END
+DescriptLabel CONTROLBAR:TooltipFireStrategicBombing
+"Damage radius area 250 \n Strong vs. Structures, Large groups of units \n \n Countdown Timer: 7:00"
+END
+
+OBJECT:CIWSBattery
+"CIWS"
+END
+CONTROLBAR:ConstructAmericaPhalanxCIWS
+"CIWS"
+END
+CONTROLBAR:ToolTipUSABuildPhalanxCIWS
+"Build Time: 20sec \n Energy use: -2 \n Endurance: 1600 \n Vision Range: 400 \n\n Multi-purpose protective system. \n Strong vs. aircraft, infantry, light vehicles.\n"
+END
+
+OBJECT:AirStraikeTechCenter
+"Air-Straike Command Station"
+END
+CONTROLBAR:AmericaAirStationStraike
+"Air-Straike Command Station"
+END
+CONTROLBAR:AmericaAirStationStraikeTooltip
+"Build Time: 60sec \n Energy use: -10 \n Endurance: 5000 \n Vision Range: 200 \n\n Super Weapon USA. \n \n Requires: 10 Rank"
+END
+
+CONTROLBAR:ConstructAmericaHelipad
+"Helipa&d"
+END
+CONTROLBAR:ToolTipUSABuildHelipad
+"Build Time: 20sec \n Energy use: -4 \n Endurance: 2500 \n Vision Range: 400 \n \n Builds USA advanced helicopters."
+END
+
+OBJECT:Hornet
+"F\A-18 Hornet"
+END
+CONTROLBAR:ConstructAmericaJetHornet
+"F\A-18 Horne&t"
+END
+CONTROLBAR:ToolTipUSABuildHornet
+"Jet Fighter.\n Armed with Anti-Ground Missiles. \n Can attack machinegun to air targets.\n\n Strong vs. Aircraft, Vehicles \n Weak vs. Anti-Air Units"
+END
+
+OBJECT:Chaparral
+"Chaparral"
+END
+
+CONTROLBAR:ConstructAmericaVehicleChaparral
+"Chapa&rral"
+END
+
+CONTROLBAR:ToolTipUSABuildChaparral
+"Heavy anti-air missile launcher.\n Armed with powerful long range missiles.\n Can be upgraded with drones.\n\n Strong vs. aircraft\n Weak vs. ground units"
+END
+
+CONTROLBAR:ConstructAmericaInfantryPilot
+"Pilot"
+END
+CONTROLBAR:ToolTipUSABuildPilot
+"Highly Qualified Pilot.\n Can drive any type of transport.\n\n Strong vs. N\A \n Weak vs. N\A"
+END
+
+
 CONTROLBAR:ElectromagneticBomb
 "Drop Electromagnetic Bomb "
 END
@@ -1092,6 +1251,10 @@ CONTROLBAR:ConstructAmericaCommandCenter
 "&Command Center"
 END
 
+CONTROLBAR:ConstructAmericaTechLab
+"Tech Lab"
+END
+
 CONTROLBAR:ConstructAmericaDetentionCamp
 "&Detention Camp"
 END
@@ -1170,6 +1333,10 @@ END
 
 CONTROLBAR:ConstructAmericaLaserCannonUplink
 "Laser &Cannon"
+END
+
+CONTROLBAR:ConstructAmericaPatriotBatteryMK2
+"Protector &Missile System Mk2"
 END
 
 CONTROLBAR:ConstructAmericaPatriotBattery
@@ -3630,6 +3797,10 @@ CONTROLBAR:ToolTipUSABuildCrusaderII
 "Medium Tank.\n Armed with a cannon and coaxial machine gun.\n Can be upgraded to use a hover drive.\n Can be upgraded with drones.\n\n Strong vs. vehicles, structures \n Weak vs. infantry, aircraft"
 END
 
+CONTROLBAR:ToolTipUSABuildTechLab
+"Unlocks USA standard units and technologies.\n\n Power Required: 5"
+END
+
 CONTROLBAR:ToolTipUSABuildDetentionCamp
 "Unlocks USA standard units and technologies.\n\n Power Required: 5"
 END
@@ -3703,7 +3874,11 @@ CONTROLBAR:ToolTipUSABuildPathFinder
 END
 
 CONTROLBAR:ToolTipUSABuildPatriotBattery
-"Defensive Missile Silo.\n Engages ground and air targets.\n Can relay targeting data to nearby Protectors.\n\n Power Required: 2"
+"Defensive Missile Battery.\n Engages ground and air targets.\n\n Power Required: 2"
+END
+
+CONTROLBAR:ToolTipUSABuildPatriotBatteryMK2
+"Defensive Missile Battery.\n Engages ground and air targets.\n\n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipUSABuildProtectorBattery
@@ -29125,11 +29300,9 @@ END
 OBJECT:BlackHawk
 "BlackHawk"
 END
-
 CONTROLBAR:ConstructAmericaVehiclelackHawk
 "&BlackHawk"
 END
-
 CONTROLBAR:ToolTipUSABuildlackHawk
 "Assault Transport Helicopter.\n Armed with side mounted minigun.\n Can transport up to 8 infantry units. \n Produced with 8 Rangers.\n Can combat drop Rangers to clear garrisons.\n\n Strong vs. infantry \n Weak vs. fighters, anti-air units"
 END
@@ -30611,10 +30784,6 @@ END
 
 CONTROLBAR:ToolTipEUGepard
 "Light Anti-Air Vehicle.\n Armed with dual canister cannons.\n Attacks both air and ground targets.\n Has a mounted machine gun which can be manned.\n Equiped with close range anti-infantry grenades. \n\n Strong vs. infantry, aircraft\n Weak vs. tanks"
-END
-
-OBJECT:Leopard
-"Leopard Tank"
 END
 
 CONTROLBAR:ConstructEuropeLeopard
