@@ -28,6 +28,7 @@ FX_NukeGLA
 ; Ядерное оружие
 WeaponFX_HanNukeExplosion
 FX_NukeShellExplosion
+FX_ChinaPowerPlantDeath
 
 ; Термоядерное оружие
 FX_TOPOLNuqExplosion
@@ -129,6 +130,7 @@ FX_StealthJetBombExplosion
 FX_SpiritCarpetBomb
 
 ; Артилерия
+FX_MortarImpact
 FX_WarFortressCannonExplosiveShell
 FX_SentinelCannonShellDetonation
 FX_TremorShellDetonation

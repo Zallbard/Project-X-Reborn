@@ -1,3 +1,63 @@
+OBJECT:ResearchPlant
+"Technical Laboratory"
+END
+CONTROLBAR:TankResearchPlant
+"Technical Laboratory"
+END
+CONTROLBAR:TankResearchPlantTooltip
+"Opens access to technical level 2. Allows you to improve General promotions. \n Energy use: -15"
+END
+
+OBJECT:TyphoonAA
+"Typhoon AA System"
+END
+CONTROLBAR:ConstructChinaTyphoonAA
+"&Typhoon"
+END
+CONTROLBAR:ToolTipConstructTyphoonAA
+"Heavy AA. Must Deploy to fire.\n Detects stealth Aircraft.\n \n Strong vs. aircraft."
+End
+
+CONTROLBAR:ConstructChinaRadTank
+"&Radiation Tank"
+END
+CONTROLBAR:ToolTipChinaBuildRadTank
+"Creates radiation fields. \n \n Strong vs. Infantry and light vehicles \n Weak vs. buildings and aircraft"
+END
+OBJECT:RadTank
+"Radiation Tank"
+END
+
+OBJECT:Devastator
+"Devastator"
+END
+CONTROLBAR:ConstructChinaTankDevastator
+"Devastato&r"
+END
+CONTROLBAR:ToolTipChinaBuildDevastator
+"Heavy Nuclear-Powered Tank.\n Armed with dual cannons.\n Fires tactical nuclear shells.\n Can crush smaller Vehicles.\n Can overload its reactor to explode. \n\n Strong vs. Vehicles, Infantry \n Weak vs. Aircraft."
+END
+
+CONTROLBAR:ConstructChinaVehicleSiegeCannon
+"S&iege Cannon"
+END
+CONTROLBAR:ToolTipChinaBuildSiegeCannon
+"Artillery Vehicle.\n Armed with long range cannon.\n Fires radiation shells.\n\n Strong vs. Infantry, Structures\n Weak vs. Aircraft"
+END
+OBJECT:SiegeCannon
+"Siege Cannon"
+END
+
+OBJECT:Nuke_Bunker
+"Fallout Bunker"
+END
+CONTROLBAR:Nuke_ConstructChinaBunker
+"Fallout Bun&ker"
+END
+CONTROLBAR:Nuke_ToolTipChinaBuildBunker
+"Can hold 5 Chinese soldiers\n Provides additional protection against explosive weapons."
+END
+
 OBJECT:AmericaTechCenter
 "Tech Center"
 END
@@ -23931,7 +23991,13 @@ OBJECT:MIG
 END
 
 OBJECT:MIGBomber
-"Nuclear MiG Bomber"
+"Ferret Bomber"
+END
+CONTROLBAR:ConstructChinaJetMIGBomber
+"Ferret Bomber"
+END
+CONTROLBAR:Nuke_ToolTipChinaBuildMIGBomber
+"Bomber Aircraft.\n Armed with Bombs. \n\n Strong vs. Tanks, Infantry \n Weak vs. Anti-air"
 END
 
 OBJECT:EMPMIGBomber
