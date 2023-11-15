@@ -1,3 +1,10 @@
+CONTROLBAR:ConstructGLASecretLab
+"Sec&ret Lab"
+END
+CONTROLBAR:ToolTipGLABuildSecretLab
+"Researches advanced technology.\nAllows construction of advanced units."
+END
+
 OBJECT:ResearchPlant
 "Technical Laboratory"
 END
